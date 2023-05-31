@@ -1,0 +1,22 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.15.2",
+    "mocha": "^10.2.0",
+    "morgan": "^1.8.1",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "npx mocha index.spec.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^6.3.3"
+  }
+}
